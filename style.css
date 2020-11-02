@@ -1,0 +1,32 @@
+hr {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: #000000}
+
+/* Globally */
+
+/* Each state */
+
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+a:focus {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+    color: black
+}
