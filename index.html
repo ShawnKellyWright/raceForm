@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Race Registration Form</title>
     <link rel="stylesheet" href="style.css">
+    lin
 </head>
 
 <body>
@@ -24,12 +25,13 @@
 
     <body>
         <form action="">
-            <h1>Race Registration</h1>
+            <h1>Race Registration!</h1>
+            <hr>
 
             <!-- Text required field for 1st & last name -->
             <div>
                 <label for="firstName">First Name:</label>
-                <input type="text" name="firstName" id="firstName" required>
+                <input type="text" name="firstName" id="firstName" placeholder="name" required>
 
                 <label for="lastName">Last Name:</label>
                 <input type="text" name="lastName" id="lastName" placeholder="name" required>
@@ -54,12 +56,22 @@
 
             <div>
                 <label for="emailAddress">Email:</label>
-                <input type="email" name="emailAddress" id="emailAddress" placeholder="username@gmail.com"
-                    pattern=".+@.com">
+                <input type="email" name="emailAddress" id="emailAddress" placeholder="username@gmail.com" required>
 
                 <label for="password">Password:</label>
-                <input type="password" name="password" id="password" min="5" max="15" required>
+                <input type="password" name="password" id="password" placeholder="name" min="5" max="15" required>
             </div>
+
+            <div>
+                <label for="age">Select Age Group</label>
+                <select name="age" id="age">
+                    <option value="tooYoung">under 18</option>
+                    <option value="young">18-30</option>
+                    <option value="middleAge">30-50</option>
+                    <option value="old">50+</option>
+                </select>
+            </div>
+            <button><a href="#" target="_blank">Register!</a></button>
         </form>
 
     </body>
