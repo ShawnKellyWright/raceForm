@@ -10,6 +10,11 @@ h1 {
     text-align: center;
 }
 
+p span {
+    color:#f6bf08;
+    background-color: #ca4d2d;
+}
+
 .a1 {
     text-align: center;
 }
