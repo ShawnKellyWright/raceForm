@@ -6,8 +6,22 @@ body {
     background-size: cover;
 }
 
-hr {
-    color: blue;
+h1 {
+    text-align: center;
+}
+
+.a1 {
+    text-align: center;
+}
+
+span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.outer-line {
+    width: 40%;
+    border-bottom: 1px solid red;
 }
 
 a {
